@@ -1,0 +1,13 @@
+{
+  "name": "zip-upload",
+  "version": "0.0.3",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "zip-upload": "./src/index.js"
+  },
+  "dependencies": {
+    "ali-oss": "^6.18.1",
+    "compressing": "^1.10.0"
+  }
+}
