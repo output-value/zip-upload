@@ -3,6 +3,7 @@ zip-upload -F build -R 'path'
 -R 远程服务器路径
 
 在package.json中配置
+```json
 "zipUpload": {
     "region": "",
     "accessKeyId":"",
@@ -10,3 +11,4 @@ zip-upload -F build -R 'path'
     "bucket":"",
     "ossHost":"https://xxx"
 }
+```
